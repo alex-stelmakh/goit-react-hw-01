@@ -1,0 +1,29 @@
+.table {
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-weight: 500;
+}
+
+.thead {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.th,
+.td {
+    padding: 8px 50px;
+    border: 2px solid black;
+}
+
+.tbody {
+    color: black;
+}
+
+.tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
